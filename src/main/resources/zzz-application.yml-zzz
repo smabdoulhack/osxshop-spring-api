@@ -1,0 +1,16 @@
+spring:
+    application:
+        name: osxshop
+    datasource:
+        url: jdbc:mysql://localhost/osxshop?createDatabaseIfNotExist=true
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        username: root
+        password:
+    jpa:
+        show-sql: true
+        hibernate:
+            ddl-auto: update
+        database: mysql
+
+server:
+    port: 8081
